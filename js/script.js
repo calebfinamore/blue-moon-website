@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Looking at future days
                     if (sched.open !== null) {
                         const dayName = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"][nextOpenDay];
-                        statusText.innerText = `CLOSED :( \n OPENING AT ${dayName} AT ${formatTime(sched.open)}`;
+                        statusText.innerText = `CLOSED :( \n OPENING ${dayName} AT ${formatTime(sched.open)}`;
                         foundNext = true;
                     }
                 }
