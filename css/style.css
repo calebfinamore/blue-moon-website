@@ -53,7 +53,7 @@ body {
   font-size: var(--base-size);
   line-height: 1.5;
   background-image: url("../images/nightsky.gif");
-  background-repeat: cover; /* Tiles the image (Classic Y2K) */
+  background-repeat: cover;
 }
 
 .container {
@@ -61,15 +61,18 @@ body {
   max-width: var(--container-width);
   margin: 0 auto;
   background: var(--content-bg);
-  border: 4px var(--border-style) white;
+  border: 5px var(--border-style) white;
   padding: 20px;
 }
 
 /* --- LAYOUT ELEMENTS --- */
 header {
   text-align: center;
-  border-bottom: 2px var(--border-style) var(--text-color);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#title {
+    text-align: center;
 }
 
 h1 {
@@ -150,6 +153,15 @@ h2 {
   border: 0;
 }
 
+#behold-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 0%; /* 16:9 Aspect Ratio */
+  border: 2px inset white;
+  background: white;
+  margin: 0px;
+}
+
 /* --- STATUS BOX --- */
 .status-box {
   text-align: center;
@@ -174,8 +186,8 @@ h2 {
 
 /* Accessibility Mode Override */
 body.access-mode .status-box {
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #000;
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #858585;
   text-shadow: none;
 }
