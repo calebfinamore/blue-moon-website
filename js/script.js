@@ -113,10 +113,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (body.classList.contains('access-mode')) {
             if(marquee) marquee.stop(); 
-            accessBtn.innerHTML = "🌑 Y2K MODE"; 
+            accessBtn.innerHTML = "🌑 FULL COLOR"; 
         } else {
             if(marquee) marquee.start();
-            accessBtn.innerHTML = "🌕 ACCESSIBILITY MODE"; 
+            accessBtn.innerHTML = "🌕 HIGH CONTRAST"; 
         }
     });
 });

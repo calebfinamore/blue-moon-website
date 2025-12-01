@@ -27,10 +27,10 @@
 
 /* ACCESSIBILITY OVERRIDE CLASS */
 body.access-mode {
-  --bg-color: #ffffff;
-  --content-bg: #8a8a8a;
+  --bg-color: #000000;
+  --content-bg: #ffffff;
   --text-color: #000000;
-  --accent-color: #888888;
+  --accent-color: #ffffff;
   --link-color: #0000ee;
   --border-style: solid;
   --font-main: "Verdana", sans-serif;
